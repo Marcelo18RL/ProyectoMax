@@ -1,0 +1,30 @@
+/* Contenedor principal */
+.graficos-container {
+  margin: 32px 0;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Título */
+.graficos-container h2 {
+  margin-bottom: 16px;
+}
+
+/* Tabla de riesgos */
+.riesgos-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.riesgos-table th,
+.riesgos-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.riesgos-table th {
+  background: #f0f0f0;
+}
